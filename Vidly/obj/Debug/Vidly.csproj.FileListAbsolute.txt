@@ -124,3 +124,8 @@ C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyCom
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTpyes.resources
