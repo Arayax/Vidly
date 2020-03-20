@@ -1,2 +1,2 @@
 # Vidly
- pratice
+ Practice
