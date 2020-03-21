@@ -132,3 +132,4 @@ C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.Pop
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.InsertMerbershipName.resources
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateToCustomers.resources
