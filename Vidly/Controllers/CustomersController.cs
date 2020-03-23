@@ -7,6 +7,7 @@ using Vidly.Models;
 using Vidly.ViewModels;
 using System.Data.Entity;
 
+
 namespace Vidly.Controllers
 {
     public class CustomersController : Controller
@@ -36,10 +37,23 @@ namespace Vidly.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(Customer customer)
+        public ActionResult Save(Customer customer)
         {
-            _context.Customers.Add(customer);
+            if (customer.Id == 0)
+                _context.Customers.Add(customer);
+
+            else
+            {
+                var customerInDb = _context.Customers.Single(c => c.Id == customer.Id );
+
+
+                customerInDb.Name = customer.Name;
+                customerInDb.Birthdate = customer.Birthdate;
+                customerInDb.MembershipTypeId = customer.MembershipTypeId;
+                customerInDb.IsSubscrubedToNewsletter = customer.IsSubscrubedToNewsletter;
+            }
             _context.SaveChanges();
+
             return RedirectToAction("Index", "Customers");
         }
         public ActionResult Index()
