@@ -6,6 +6,8 @@ using System.Web;
 using System.Web.Mvc;
 using Vidly.ViewModels;
 
+
+
 namespace Vidly.Controllers
 {
     public class MoviesController : Controller
@@ -30,6 +32,6 @@ namespace Vidly.Controllers
 
         }
 
-      
+
     }
 }

@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
+
 namespace Vidly.Models
 {
     // Para agregar datos de perfil del usuario, agregue más propiedades a su clase ApplicationUser. Visite https://go.microsoft.com/fwlink/?LinkID=317594 para obtener más información.
@@ -21,6 +22,7 @@ namespace Vidly.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
@@ -30,7 +32,7 @@ namespace Vidly.Models
         {
             return new ApplicationDbContext();
         }
-
         public System.Data.Entity.DbSet<Vidly.Models.Customer> Customers { get; set; }
+        public System.Data.Entity.DbSet<Vidly.Models.Movie> Movies { get; set; }
     }
 }
