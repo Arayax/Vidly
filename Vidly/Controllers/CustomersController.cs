@@ -23,7 +23,17 @@ namespace Vidly.Controllers
         {
             _context.Dispose();
         }
-        // GET: Customers
+
+        public ActionResult New()
+        {
+            var membershipTypes = _context.MembershipTypes.ToList();
+            var viewModel = new NewCustomerViewModel
+            {
+                membershipTypes = membershipTypes
+
+            };
+            return View(viewModel);
+        }
         public ActionResult Index()
         {
             var customers = _context.Customers.Include(c => c.MembershipType).ToList();
