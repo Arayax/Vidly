@@ -258,10 +258,15 @@ C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenre.resources
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\AutoMapper.dll
-C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\AutoMapper.pdb
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\AutoMapper.xml
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.addDataReleased.resources
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.addDataReleased2.resources
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.addDataReleased3.resources
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.addDataReleased4.resources
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.delrelaseddatedatatime2.resources
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\System.Web.Http.dll
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
