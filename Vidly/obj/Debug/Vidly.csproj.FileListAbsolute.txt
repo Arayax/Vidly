@@ -270,3 +270,7 @@ C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\System.Web.Http.WebHost.dl
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\System.Web.Http.xml
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLinceseToApplicationUser.resources
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser2.resources

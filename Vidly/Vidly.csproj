@@ -227,6 +227,22 @@
     <Compile Include="Migrations\202003240711348_delrelaseddatedatatime2.Designer.cs">
       <DependentUpon>202003240711348_delrelaseddatedatatime2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003260332119_SeedUsers.cs" />
+    <Compile Include="Migrations\202003260332119_SeedUsers.Designer.cs">
+      <DependentUpon>202003260332119_SeedUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003260704070_AddDrivingLinceseToApplicationUser.cs" />
+    <Compile Include="Migrations\202003260704070_AddDrivingLinceseToApplicationUser.Designer.cs">
+      <DependentUpon>202003260704070_AddDrivingLinceseToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003260753542_AddPhoneToApplicationUser.cs" />
+    <Compile Include="Migrations\202003260753542_AddPhoneToApplicationUser.Designer.cs">
+      <DependentUpon>202003260753542_AddPhoneToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003260757051_AddPhoneToApplicationUser2.cs" />
+    <Compile Include="Migrations\202003260757051_AddPhoneToApplicationUser2.Designer.cs">
+      <DependentUpon>202003260757051_AddPhoneToApplicationUser2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -236,6 +252,7 @@
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\Rolename.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomerFormViewModel.cs" />
@@ -476,11 +493,12 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
-    <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\List.cshtml" />
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Customers\CustomersForm.cshtml" />
     <Content Include="Views\Movies\MoviesForm.cshtml" />
+    <Content Include="Views\Movies\ReadOnlyList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -522,6 +540,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003240711348_delrelaseddatedatatime2.resx">
       <DependentUpon>202003240711348_delrelaseddatedatatime2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003260332119_SeedUsers.resx">
+      <DependentUpon>202003260332119_SeedUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003260704070_AddDrivingLinceseToApplicationUser.resx">
+      <DependentUpon>202003260704070_AddDrivingLinceseToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003260753542_AddPhoneToApplicationUser.resx">
+      <DependentUpon>202003260753542_AddPhoneToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003260757051_AddPhoneToApplicationUser2.resx">
+      <DependentUpon>202003260757051_AddPhoneToApplicationUser2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
