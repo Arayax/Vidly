@@ -274,3 +274,8 @@ C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.See
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLinceseToApplicationUser.resources
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser2.resources
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\Glimpse.Ado.dll
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\Glimpse.AspNet.dll
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\Glimpse.Core.dll
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\Glimpse.EF6.dll
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\Glimpse.Mvc5.dll
