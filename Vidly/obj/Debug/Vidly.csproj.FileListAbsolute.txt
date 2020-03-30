@@ -279,3 +279,5 @@ C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\Glimpse.AspNet.dll
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\Glimpse.Core.dll
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\Glimpse.EF6.dll
 C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\bin\Glimpse.Mvc5.dll
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.Addrental.resources
+C:\Users\Johan Araya\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNumberAvailableToMovie.resources

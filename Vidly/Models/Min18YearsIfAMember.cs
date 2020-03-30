@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.ComponentModel.DataAnnotations;
 
 namespace Vidly.Models
@@ -13,7 +10,7 @@ namespace Vidly.Models
 
             var customer = (Customer)validationContext.ObjectInstance;
 
-            if (customer.MembershipTypeId == MembershipType.Unknown || 
+            if (customer.MembershipTypeId == MembershipType.Unknown ||
                 customer.MembershipTypeId == MembershipType.PaysAsYouGo)
 
                 return ValidationResult.Success;
@@ -24,8 +21,8 @@ namespace Vidly.Models
 
             var age = DateTime.Today.Year - customer.Birthdate.Value.Year;
 
-            return (age >= 18) 
-                ? ValidationResult.Success 
+            return (age >= 18)
+                ? ValidationResult.Success
                 : new ValidationResult("Customer should be at last 18 years old to go on a membership.");
         }
     }

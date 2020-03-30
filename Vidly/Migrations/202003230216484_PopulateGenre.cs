@@ -1,8 +1,7 @@
 namespace Vidly.Migrations
 {
-    using System;
     using System.Data.Entity.Migrations;
-    
+
     public partial class PopulateGenre : DbMigration
     {
         public override void Up()
@@ -12,7 +11,7 @@ namespace Vidly.Migrations
             Sql("INSERT INTO Genres (Id,Name) values(3,'Romance')");
             Sql("INSERT INTO Genres (Id,Name) values(4,'Thriller')");
         }
-        
+
         public override void Down()
         {
         }

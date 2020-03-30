@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Data.Entity;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using Vidly.Models;
 using Vidly.ViewModels;
-using System.Data.Entity;
 
 
 namespace Vidly.Controllers
@@ -50,15 +47,15 @@ namespace Vidly.Controllers
                     membershipTypes = _context.MembershipTypes.ToList()
 
                 };
-                return View("CustomersForm", viewModel) ;
-                                    
-            } 
+                return View("CustomersForm", viewModel);
+
+            }
             if (customer.Id == 0)
                 _context.Customers.Add(customer);
 
             else
             {
-                var customerInDb = _context.Customers.Single(c => c.Id == customer.Id );
+                var customerInDb = _context.Customers.Single(c => c.Id == customer.Id);
 
 
                 customerInDb.Name = customer.Name;
@@ -72,7 +69,7 @@ namespace Vidly.Controllers
         }
         public ActionResult Index()
         {
-           
+
 
             return View();
 
@@ -93,17 +90,17 @@ namespace Vidly.Controllers
             var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
 
             if (customer == null)
-            
+
                 return HttpNotFound();
 
-                var viewModel = new CustomerFormViewModel
-                {
-                    customer = customer,
-                    membershipTypes = _context.MembershipTypes.ToList()
+            var viewModel = new CustomerFormViewModel
+            {
+                customer = customer,
+                membershipTypes = _context.MembershipTypes.ToList()
 
-                };
-                return View("CustomersForm", viewModel);
-            
+            };
+            return View("CustomersForm", viewModel);
+
         }
 
     }

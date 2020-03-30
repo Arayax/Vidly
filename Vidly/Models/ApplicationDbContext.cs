@@ -1,5 +1,4 @@
-﻿using System.Data.Entity;
-using Microsoft.AspNet.Identity.EntityFramework;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Vidly.Models
 {
@@ -18,5 +17,6 @@ namespace Vidly.Models
         public System.Data.Entity.DbSet<Vidly.Models.Movie> Movies { get; set; }
         public System.Data.Entity.DbSet<Vidly.Models.MembershipType> MembershipTypes { get; set; }
         public System.Data.Entity.DbSet<Vidly.Models.Genre> Genres { get; set; }
+        public System.Data.Entity.DbSet<Vidly.Models.Rental> Rentals { get; set; }
     }
 }

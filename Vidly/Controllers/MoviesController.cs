@@ -23,7 +23,7 @@ namespace Vidly.Controllers
 
         public ViewResult Index()
         {
-            
+
 
             if (User.IsInRole(Rolename.CanManageMovies))
 

@@ -1,8 +1,7 @@
 namespace Vidly.Migrations
 {
-    using System;
     using System.Data.Entity.Migrations;
-    
+
     public partial class PopulateMembershipTypes : DbMigration
     {
         public override void Up()
@@ -12,7 +11,7 @@ namespace Vidly.Migrations
             Sql("INSERT INTO MembershipTypes (Id,Name,SignUpFee, DurationInMonths, DiscountRate) values(3,'Quarterly',90,3,15)");
             Sql("INSERT INTO MembershipTypes (Id,Name,SignUpFee, DurationInMonths, DiscountRate) values(4,'Annualy',300,12,30)");
         }
-        
+
         public override void Down()
         {
         }
